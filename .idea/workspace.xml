@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d5d36-e70b-441c-943d-ae7dcc362ba0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/expiration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/OfferRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offers/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/lrvl6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lrvl6.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -209,7 +217,7 @@
       <workItem from="1610013670806" duration="614000" />
       <workItem from="1610310449054" duration="7106000" />
       <workItem from="1610364136740" duration="5583000" />
-      <workItem from="1610498836569" duration="5321000" />
+      <workItem from="1610498836569" duration="5679000" />
     </task>
     <servers />
   </component>
