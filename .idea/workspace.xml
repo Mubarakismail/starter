@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a8d5d36-e70b-441c-943d-ae7dcc362ba0" name="Default Changelist" comment="" />
+    <list default="true" id="3a8d5d36-e70b-441c-943d-ae7dcc362ba0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/lrvl6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lrvl6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/Messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/Messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/Messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/Messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/offers/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/offers/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/app/Http/Requests/OfferRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/starter/app/Http/Requests/OfferRequest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +26,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -112,9 +131,19 @@
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
     </include_path>
   </component>
   <component name="ProjectId" id="1m0mT9RiC1vPE6NwuqDlm8X2jTj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -122,20 +151,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/ar" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Laravel\lrvl6\app\Models" />
       <recent name="C:\xampp\htdocs\Laravel\lrvl6\public" />
       <recent name="C:\xampp\htdocs\Laravel\lrvl6\app\Http\Controllers\Front" />
       <recent name="C:\xampp\htdocs\Laravel\lrvl6\app\Http\Controllers\Admin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Laravel\lrvl6\resources\lang\ar" />
+      <recent name="C:\xampp\htdocs\Laravel\lrvl6\resources\views\offers" />
+      <recent name="C:\xampp\htdocs\Laravel\lrvl6\app\Http\Controllers" />
       <recent name="C:\xampp\htdocs\Laravel\lrvl6\resources\views" />
       <recent name="C:\xampp\htdocs\Laravel\lrvl6\resources\views\layouts" />
-      <recent name="C:\xampp\htdocs\Laravel\lrvl6\resources\lang\en" />
     </key>
   </component>
   <component name="RunManager">
@@ -165,7 +197,19 @@
       <workItem from="1609498540442" duration="1604000" />
       <workItem from="1609503637842" duration="948000" />
       <workItem from="1609530378493" duration="6578000" />
-      <workItem from="1609584906703" duration="1201000" />
+      <workItem from="1609584906703" duration="1518000" />
+      <workItem from="1609590406762" duration="3902000" />
+      <workItem from="1609596385358" duration="3434000" />
+      <workItem from="1609763223785" duration="3681000" />
+      <workItem from="1609793417793" duration="2606000" />
+      <workItem from="1609797711917" duration="1786000" />
+      <workItem from="1609845679574" duration="5401000" />
+      <workItem from="1609867154927" duration="9242000" />
+      <workItem from="1609948608966" duration="2835000" />
+      <workItem from="1610013670806" duration="614000" />
+      <workItem from="1610310449054" duration="7106000" />
+      <workItem from="1610364136740" duration="5583000" />
+      <workItem from="1610498836569" duration="5321000" />
     </task>
     <servers />
   </component>
@@ -177,13 +221,21 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1609437649907" />
+    <state x="471" y="91" key="NewPhpClassDialog" timestamp="1609797021682">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="471" y="91" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1609797021682" />
+    <state x="520" y="89" key="RollbackChangesDialog" timestamp="1609950484210">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="520" y="89" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1609950484210" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1609021091915">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1609021091915" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1608735416984">
+    <state x="339" y="165" key="run.anything.popup" timestamp="1609951269154">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1608735416984" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1609951269154" />
   </component>
 </project>

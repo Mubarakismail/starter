@@ -15,5 +15,7 @@ return [
 
     'hello guys'=>'اهلا بكم',
     'welcome'=>'اهلا',
-
+    'offer name required'=>'اسم العرض مطلوب',
+    'offer price required'=>'سعر العرض مطلوب',
+    'offer details required'=>'مواصفات العرض مطلوبة',
 ];

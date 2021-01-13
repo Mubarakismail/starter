@@ -65,51 +65,25 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                <div class="title m-b-md">
-                    Add Ur Offer
-                </div>
-
-                @if(Session::has('success'))
-
-                    <div class="alert alert-success" role="alert">
-                        {{Session::get('success')}}
-                    </div>
-                @endif
-                
-                <form method="post" action="{{route('offers.store')}}">
-                    @csrf
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Offer Name</label>
-                        <input type="text" class="form-control" placeholder="Enter Offer Name" name="name">
-
-                        @error('name')
-                            <small class="form-text text-danger">{{$message}}</small>
-                        @enderror
-
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Offer Price</label>
-                        <input type="text" class="form-control" placeholder="Enter Offer Price" name="price">
-
-                        @error('price')
-                            <small class="form-text text-danger">{{$message}}</small>
-                        @enderror
-
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInput">Offer Details</label>
-                        <input type="text" class="form-control" placeholder="Enter Offer Details" name="details">
-
-                        @error('details')
-                            <small class="form-text text-danger">{{$message}}</small>
-                        @enderror
-
-                    </div>
-                    <button type="submit" class="btn btn-primary">Save Offer</button>
-                </form>
-            </div>
-        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Offer Name</th>
+                    <th scope="col">Offer Price</th>
+                    <th scope="col">Offer Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach($offers as $off)
+                <tr>
+                    <th scope="row">{{$off->id}}</th>
+                    <td>{{$off->name}}</td>
+                    <td>{{$off->price}}</td>
+                    <td>{{$off->details}}</td>
+                </tr>
+                @endforeach
+            </tbody>
+        </table>
     </body>
 </html>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Validation\Concerns\FilterEmailValidation;
 
 class LoginController extends Controller
 {
@@ -39,6 +40,9 @@ class LoginController extends Controller
     }
     public function username()
     {
-        return 'mobile';
+        $value = request()->input('identify');
+        $field = filter_var($value, FILTER_VALIDATE_EMAIL) ? 'email' : 'mobile';
+        request()->merge([$field => $value]);
+        return $field;
     }
 }

@@ -13,7 +13,9 @@ return [
     |
     */
 
-    'hello guys'=>'اهلا بكم',
-    'welcome'=>'اهلا',
-
+    'اهلا بكم'=>'hello guys',
+    'اهلا'=>'Welcome',
+    'offer name required'=>'offer name required',
+    'offer price required'=>'offer price required',
+    'offer details required'=>'offer details required',
 ];
