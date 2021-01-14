@@ -91,7 +91,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    Add Ur Offer
+                    {{trans('messages.Add Ur Offer')}}
                 </div>
 
                 @if(Session::has('success'))
@@ -104,17 +104,28 @@
                 <form method="post" action="{{route('offers.store')}}">
                     @csrf
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Offer Name</label>
-                        <input type="text" class="form-control" placeholder="Enter Offer Name" name="name">
+                        <label for="exampleInputEmail1">{{trans('messages.Offer Name en')}}</label>
+                        <input type="text" class="form-control" placeholder="Enter Offer Name" name="name_en">
 
-                        @error('name')
+                        @error('name_en')
                             <small class="form-text text-danger">{{$message}}</small>
                         @enderror
 
                     </div>
+
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Offer Price</label>
-                        <input type="text" class="form-control" placeholder="Enter Offer Price" name="price">
+                        <label for="exampleInputEmail1">{{trans('messages.Offer Name ar')}}</label>
+                        <input type="text" class="form-control" placeholder="Enter Offer Name" name="name_ar">
+
+                        @error('name_ar')
+                        <small class="form-text text-danger">{{$message}}</small>
+                        @enderror
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">{{trans('messages.Offer Price')}}</label>
+                        <input type="number" class="form-control" placeholder="Enter Offer Price" name="price">
 
                         @error('price')
                             <small class="form-text text-danger">{{$message}}</small>
@@ -122,15 +133,26 @@
 
                     </div>
                     <div class="form-group">
-                        <label for="exampleInput">Offer Details</label>
-                        <input type="text" class="form-control" placeholder="Enter Offer Details" name="details">
+                        <label for="exampleInput">{{trans('messages.Offer Details en')}}</label>
+                        <input type="text" class="form-control" placeholder="Enter Offer Details" name="details_en">
 
-                        @error('details')
+                        @error('details_en')
                             <small class="form-text text-danger">{{$message}}</small>
                         @enderror
 
                     </div>
-                    <button type="submit" class="btn btn-primary">Save Offer</button>
+
+                    <div class="form-group">
+                        <label for="exampleInput">{{trans('messages.Offer Details ar')}}</label>
+                        <input type="text" class="form-control" placeholder="Enter Offer Details" name="details_ar">
+
+                        @error('details_ar')
+                        <small class="form-text text-danger">{{$message}}</small>
+                        @enderror
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">{{trans('messages.Save Offer')}}</button>
                 </form>
             </div>
         </div>

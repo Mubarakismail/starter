@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8d5d36-e70b-441c-943d-ae7dcc362ba0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Commands/expiration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/OfferRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/offers/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lrvl6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lrvl6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/OfferRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/OfferRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ar/Messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/Messages.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/en/Messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/Messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/offers/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/offers/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/offers/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/offers/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/app/Http/Requests/OfferRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/starter/app/Http/Requests/OfferRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +204,11 @@
       <workItem from="1610013670806" duration="614000" />
       <workItem from="1610310449054" duration="7106000" />
       <workItem from="1610364136740" duration="5583000" />
-      <workItem from="1610498836569" duration="5679000" />
+      <workItem from="1610498836569" duration="7330000" />
+      <workItem from="1610535266302" duration="5420000" />
+      <workItem from="1610541342098" duration="3228000" />
+      <workItem from="1610614155271" duration="3876000" />
+      <workItem from="1610618798472" duration="4984000" />
     </task>
     <servers />
   </component>
@@ -241,9 +232,13 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1609021091915" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1609951269154">
+    <state x="339" y="165" key="run.anything.popup" timestamp="1610619032988">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1609951269154" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1610619032988" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1610632738540">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1610632738540" />
   </component>
 </project>

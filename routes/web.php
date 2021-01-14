@@ -18,7 +18,6 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
     Route::group(['prefix'=>'offers'],function (){
         Route::get('create','CrudController@create');
         Route::post('store','CrudController@store')->name('offers.store');
+        Route::get('all','CrudController@getAllOffers');
     });
-
-    Route::get('all','CrudController@getAllOffers');
 });
